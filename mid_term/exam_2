@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 18 14:36:20 2018
+
+@author: Ujjwal
+"""
+
+def lessThan4(aList):
+    
+    for i in aList:
+        if ( len(i) > 3):
+            aList.remove(i)
+    return aList
